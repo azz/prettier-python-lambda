@@ -1,0 +1,20 @@
+{
+  "name": "prettier-python-lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "sls invoke local -f parse -p test.json",
+    "deploy:dev": "sls deploy",
+    "deploy:prod": "sls deploy --stage=prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/azz/prettier-python-lambda.git"
+  },
+  "author": "Lucas Azzola <@azz>",
+  "license": "MIT",
+  "dependencies": {
+    "serverless": "^1.24.1"
+  }
+}
