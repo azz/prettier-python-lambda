@@ -1,0 +1,6 @@
+{
+    "resource": "/parse",
+    "path": "/parse",
+    "httpMethod": "POST",
+    "body": "def foo():\n  pass\n"
+}

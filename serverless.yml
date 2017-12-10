@@ -1,0 +1,13 @@
+service: prettier-python
+
+provider:
+  name: aws
+  runtime: python3.6
+  stage: dev
+  region: us-west-1
+
+functions:
+  parse:
+    handler: handler.parse
+    events:
+      - http: POST parse
